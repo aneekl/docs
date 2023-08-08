@@ -14,3 +14,5 @@ chapter: true
 [สอน nesting?](https://bobcares.com/blog/lxd-and-docker-containers-nesting/#:~:text=Run%20the%20following%20command%20to%20allow%20nesting%20for,that,%20start%20the%20container:%20lxc%20start%20%22container%20name%22)
 
 [สอน bridge network บน debian](https://seanblanchfield.com/2023/05/bridge-networking-in-lxd)
+
+[ใช้ docker บน lxd unprivileged](https://ubuntu.com/tutorials/how-to-run-docker-inside-lxd-containers#1-overview)
