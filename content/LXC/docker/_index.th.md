@@ -18,3 +18,8 @@ weight: 20
       lxc.apparmor.profile=unconfined
       lxc.cgroup.devices.allow=a
       lxc.cap.drop=
+
+เจอมาอีกว่าใส่ต่างข้างล่างแทนก็ได้
+```
+security.syscalls.intercept.mknod: "true"
+security.syscalls.intercept.setxattr: "true" 
