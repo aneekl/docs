@@ -4,7 +4,7 @@ title: docker
 weight: 20
 ---
 
-จะใช้ไม้ต้องให้ privileged ก็ได้
+จะใช้ไม่ต้องให้ privileged ก็ได้
 
     security.privileged: "true"
 
@@ -19,7 +19,4 @@ weight: 20
       lxc.cgroup.devices.allow=a
       lxc.cap.drop=
 
-เจอมาอีกว่าใส่ต่างข้างล่างแทนก็ได้
-```
-security.syscalls.intercept.mknod: "true"
-security.syscalls.intercept.setxattr: "true" 
+จริงๆ มาแค่ security.nesting: "true" อย่างเดียวก็พอแล้ว แต่จะต่อ unix socket ไม่ได้ถ้าไม่มี privileged ใน docker-compose.yaml

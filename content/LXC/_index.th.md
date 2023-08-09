@@ -7,6 +7,8 @@ chapter: true
 
 ### LXC จิปาถะ
 
+Docker ปวดหัวตั้งค่า ใช้ podman เหอะ
+
 [อธิบาย subgid subuid](https://kcore.org/2022/02/05/lxc-subuid-subgid/)
 
 [สอน bind mount](https://www.cyberciti.biz/faq/how-to-add-or-mount-directory-in-lxd-linux-container/)
